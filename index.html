@@ -1,0 +1,115 @@
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Aluguéis por Temporada, Acomodações, Experiências e Lugares - Airbnb</title>
+    <link rel="icon" type="imagem/png" href="img/logo.png" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- My custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<div class="container-flex"> 
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Loja</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Hospede sua acomodação <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Hospede uma experiência</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Ajuda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Entrar</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="img/globe.svg">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Português BR</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">R$ BRL</a>
+                    </div>
+                  </li>
+                  
+                </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button type = "button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Cadastrar-se
+              </button>
+
+            </form>
+            </div>
+        </nav>
+
+
+    <div class="main-title">
+        <div>
+            <h2>Podemos estar afastados, mas vamos superar isso juntos.</h2>
+            <h5>Encontre aqui sua experiência dos sonhos</p>
+        </div>
+    </div>
+
+    <div id="cards"></div>
+
+    <footer>
+        
+    </footer>
+
+</div>
+
+<!--Modal cadastrar-se -->
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastre-se</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        País/Região
+        Número de telefone
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Continuar com email</button>
+        <button type="button" class="btn btn-secondary">Continuar com Facebook</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Fim Modal Products -->
+
+    <!-- Scripts -->
+    
+    <script src="script.js"></script>
+
+    <!-- Bootstrap -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

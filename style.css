@@ -1,0 +1,24 @@
+body{
+	background-color: white;
+}
+
+.main-title{
+	text-align: center;
+	padding: 20px;
+}
+.btn-primary{
+	background-image: linear-gradient(to right, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% ) !important;
+	color:white;
+	border: none;
+}
+
+
+}
+.navbar{
+	text-align: right;
+	background-color: white; 
+}
+
+.cards{
+	width: 20rem;
+}
