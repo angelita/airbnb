@@ -20,7 +20,7 @@
 
 <div class="container-flex"> 
    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" href="index.html"><img src="img/airbnb_logo.png" class="nav-img" height="45" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="img/airbnb_logo.png" class="nav-img" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,13 +67,24 @@
         </div>
     </div>
 
-    <div id="cards"></div>
+    <div class="properties">
+        <div class="properties-title">
+             <h4>Propriedades disponíveis</h4>
+        </div>
+        <div id="cards"></div>
+    </div>
+
+    <div id="map"></div>
 
     <footer>
-        
+        <div class="row" id="footer-social">
+                <p> <img class="social" src="img/instagram_dark.png" id="insta"></p>
+                <p> <img class="social" src="img/facebook_dark.png" id="insta"></p>
+                <p> <img class="social" src="img/github_round.svg"> </p>
+                <p> <img class="social" src="img/linkedin_dark.png"> </p>
+        </div>
     </footer>
 
-</div>
 
 <!--Modal cadastrar-se -->
 
@@ -109,6 +120,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+    async defer></script>
+    <script async defer  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+</script>
 
 </body>
 

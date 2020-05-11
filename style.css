@@ -2,13 +2,24 @@ body{
 	background-color: white;
 }
 
+
 .nav-img{
 	
-
+	height:65;
 }
+
+
+
 .main-title{
 	text-align: center;
 	padding: 20px;
+}
+
+.properties{
+
+}
+.properties-title{
+	margin:20px;
 }
 .btn-primary{
 	background-image: linear-gradient(to right, #FF385C 0%, #E61E4D 27.5%, #E31C5F 40%, #D70466 57.5%, #BD1E59 75%, #BD1E59 100% ) !important;
@@ -26,3 +37,18 @@ body{
 .cards{
 	width: 20rem;
 }
+footer{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer-social{
+	display: flex;
+	margin: 10px; 
+}
+.social{
+	height: 40;
+	display: flex;
+	padding: 5px;
+}
+
